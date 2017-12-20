@@ -1,23 +1,20 @@
-name: mapping
+name: MAPS
 channels:
     - conda-forge
 dependencies:
-    - python=2.7
+    - python=3.6
     - numpy
+    - pandas
     - jupyter
     - matplotlib
     - scipy
     - fiona
     - rasterio
-    - rios
-    - rasterstats
     - cartopy
-    - cmocean
+    - palettable
     - netcdf4
     - xarray
-    - pyresample
     - gridgeo
     - folium
     - mplleaflet
-    - pyhum
     - xlrd
